@@ -119,7 +119,7 @@ h4.text-md.ml-4 {
 		margin: 0.4rem;
 	}
 }
-@media screen and (max-width: 420px)  {
+@media screen and (max-width: 480px)  {
 	.tech-skills .md\:m-4 {
 		margin: 0.1em !important;
 	}
