@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Tiro Devanagari Marathi
+- Font Author: Copyright 2020 The Indigo Project Authors (https://github.com/TiroTypeworks/Indigo)
+- Font Source: http://fonts.gstatic.com/s/tirodevanagarimarathi/v5/fC1xPZBSZHrRhS3rd4M0MAPNJUHl4znXCxAkotDrDJYM2lAZ.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
