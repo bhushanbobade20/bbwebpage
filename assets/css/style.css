@@ -18,6 +18,9 @@ body #header a.button:hover {
     display: block !important;
 }
 
+.gap-b {
+	margin-bottom: 2em;
+}
 /* Skills */
 
 .tech-skills .justify-between {
