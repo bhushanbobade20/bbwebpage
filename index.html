@@ -9,11 +9,10 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+
 	<!-- Style -->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/style.css" />
-
 
 </head>
 
@@ -124,6 +123,11 @@
 						src="images/skills/less.png"
 						class="w-12">
 					<h4 class="text-md ml-4">Less</h4>
+				</div>
+
+				<div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+					<img alt="" src="images/skills/animate-css.png" class="w-12">
+					<h4 class="text-md ml-4">Animate.css</h4>
 				</div>
 				
 				<div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
@@ -679,9 +683,39 @@
 			<p>My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get
 				back to you! Feel free to mail me about any relevant job updates.</p>
 			<div class="row">
-				<div class="col-12 col-12-small">
+				<!-- <div class="col-12 col-12-small">
 					<ul class="actions">
 						<li><a href="mailto:bhushanbobade7@gmail.com" class="button">Send Email</a></li>
+					</ul>
+				</div> -->
+
+				<div class="col-8 col-12-small">
+					<form id="contact-form" action="contact.php" method="post" onsubmit="return validateForm()">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required/></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required/></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
+						</div>
+					</form>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</div>
+				<div class="col-4 col-12-small">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+							Pune, MH 411017<br />
+							INDIA
+						</li>
+						<li>
+							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+							+91-7776923123
+						</li>
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="#">bhushanbobade7@gmail.com</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -713,6 +747,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/script.js"></script>
 
 	<!-- Load library from the CDN -->
 	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
