@@ -1,26 +1,27 @@
 body p {
-    margin-bottom: 1em !important;
+	margin-bottom: 1em !important;
 }
 
 body #header a.button {
-    background-color: #ffffff !important;
+	background-color: #ffffff !important;
 }
 
 body #header a.button:hover {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 .work-item a.image::before {
-    display: none !important;
+	display: none !important;
 }
 
 .work-item a.image:hover:before {
-    display: block !important;
+	display: block !important;
 }
 
 .gap-b {
 	margin-bottom: 2em;
 }
+
 /* Skills */
 
 .tech-skills .justify-between {
@@ -52,11 +53,13 @@ body #header a.button:hover {
 .tech-skills .bg-gray-50 {
 	background-color: rgb(128 128 128 / 5%);
 }
+
 h4.text-md.ml-4 {
-    font-size: 0.7em;
-    color: #000000;
-    margin: 0 0 0 0px !important;
+	font-size: 0.7em;
+	color: #000000;
+	margin: 0 0 0 0px !important;
 }
+
 .tech-skills .rounded-lg {
 	border-radius: 0.5rem;
 }
@@ -90,7 +93,8 @@ h4.text-md.ml-4 {
 	width: 3rem;
 }
 
-.tech-skills img, .tech-skills video {
+.tech-skills img,
+.tech-skills video {
 	max-width: 100%;
 	height: auto;
 }
@@ -98,7 +102,7 @@ h4.text-md.ml-4 {
 .tech-skills img {
 	display: block;
 	vertical-align: middle;
-    margin-right: 10px;
+	margin-right: 10px;
 }
 
 @media (min-width: 1025px) {
@@ -110,6 +114,7 @@ h4.text-md.ml-4 {
 		margin: 1rem;
 	}
 }
+
 @media screen and (max-width: 1024px) and (min-width: 768px) {
 	.tech-skills .md\:w-48 {
 		width: 12rem;
@@ -119,10 +124,12 @@ h4.text-md.ml-4 {
 		margin: 0.4rem;
 	}
 }
-@media screen and (max-width: 480px)  {
+
+@media screen and (max-width: 480px) {
 	.tech-skills .md\:m-4 {
 		margin: 0.1em !important;
 	}
+
 	#header .inner h1 strong {
 		display: block;
 	}
