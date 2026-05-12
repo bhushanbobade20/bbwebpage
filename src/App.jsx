@@ -29,8 +29,8 @@ const profile = {
   location: 'Hyderabad, India',
   phone: '+91-7776923123',
   email: 'bhushanbobade7@gmail.com',
-  avatarImage: './images/bhushan-hero-1.png',
-  heroImage: './images/bhushan-avatar-1.jpg',
+  avatarImage: './images/bhushan-avatar.jpeg',
+  heroImage: './images/bhushan-hero.jpg',
 };
 
 const links = {
@@ -192,20 +192,20 @@ const certifications = [
 ];
 
 const projects = [
-  { title: 'Create Online Academy', image: 'coa.png', full: 'coa-full.png' },
-  { title: 'Hurix Digital', image: 'hurix.png', full: 'hurix-full.png' },
-  { title: 'Michelin Engineering & Services', image: 'mes-home.png', full: 'mes-full.png' },
-  { title: 'Automated Vehicle Inspection', image: 'tireia.png', full: 'tireia-full.png' },
-  { title: 'Aircraft', image: 'aircraft.png', full: 'aircraft-full.png' },
-  { title: 'Michelin', image: 'michelin.png', full: 'michelin-full.png' },
-  { title: 'Movinon', image: 'movinon.png', full: 'movinon-full.png' },
-  { title: 'Purchasing', image: 'purchasing.png', full: 'purchasing-full.png' },
-  { title: 'RFID', image: 'rfid.png', full: 'rfid-full.png' },
-  { title: 'SohPem', image: 'sohpem.png', full: 'sohpem-full.png' },
-  { title: 'Timeline for Beaver Builder', image: 'tbb.png', full: 'tbb-full.png' },
-  { title: 'Bootstrap Cards for Beaver Builder', image: 'cbb.png', full: 'cbb-full.png' },
-  { title: 'Ultimate Addon Templates for Beaver Builder', image: 'uabb-temp.png', full: 'uabb-temp-full.png' },
-  { title: 'Ultimate Addon for Beaver Builder', image: 'uabb.png', full: 'uabb-full.png' },
+  { title: 'Create Online Academy', image: 'coa.svg', full: 'coa-full.svg' },
+  { title: 'Hurix Digital', image: 'hurix.svg', full: 'hurix-full.svg' },
+  { title: 'Michelin Engineering & Services', image: 'mes-home.svg', full: 'mes-full.svg' },
+  { title: 'Automated Vehicle Inspection', image: 'tireia.svg', full: 'tireia-full.svg' },
+  { title: 'Aircraft', image: 'aircraft.svg', full: 'aircraft-full.svg' },
+  { title: 'Michelin', image: 'michelin.svg', full: 'michelin-full.svg' },
+  { title: 'Movinon', image: 'movinon.svg', full: 'movinon-full.svg' },
+  { title: 'Purchasing', image: 'purchasing.svg', full: 'purchasing-full.svg' },
+  { title: 'RFID', image: 'rfid.svg', full: 'rfid-full.svg' },
+  { title: 'SohPem', image: 'sohpem.svg', full: 'sohpem-full.svg' },
+  { title: 'Timeline for Beaver Builder', image: 'tbb.svg', full: 'tbb-full.svg' },
+  { title: 'Bootstrap Cards for Beaver Builder', image: 'cbb.svg', full: 'cbb-full.svg' },
+  { title: 'Ultimate Addon Templates for Beaver Builder', image: 'uabb-temp.svg', full: 'uabb-temp-full.svg' },
+  { title: 'Ultimate Addon for Beaver Builder', image: 'uabb.svg', full: 'uabb-full.svg' },
 ];
 
 function imageUrl(path) {
