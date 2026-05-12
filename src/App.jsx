@@ -29,8 +29,8 @@ const profile = {
   location: 'Hyderabad, India',
   phone: '+91-7776923123',
   email: 'bhushanbobade7@gmail.com',
-  avatarImage: './images/bhushan-avatar.jpeg',
-  heroImage: './images/bhushan-hero.jpg',
+  avatarImage: './images/bhushan-hero-1.png',
+  heroImage: './images/bhushan-avatar-1.jpg',
 };
 
 const links = {
