@@ -28,10 +28,6 @@ Open the local development URL shown in the terminal.
 npm run build
 ```
 
-## GitHub Pages
-
-This project is currently pushed to the `dev` branch. To publish to GitHub Pages at `https://bhushanbobade20.github.io/bbwebpage/`, configure the repository Pages source to use the `dev` branch.
-
 ## Repository Structure
 
 - `src/` - React source files
