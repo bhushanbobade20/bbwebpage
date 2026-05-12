@@ -18,8 +18,8 @@ import {
   UserRound,
 } from 'lucide-react';
 
-const baseUrl = 'https://bhushanbobade20.github.io/bbwebpage';
-const resumeUrl = `${baseUrl}/images/BhushanBobade_Resume_April-2025_1p.pdf`;
+const baseUrl = import.meta.env.BASE_URL;
+const resumeUrl = `${baseUrl}images/BhushanBobade_Resume_April-2025_1p.pdf`;
 
 const profile = {
   name: 'Bhushan Bobade',
