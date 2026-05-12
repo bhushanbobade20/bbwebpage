@@ -1,16 +1,41 @@
-# React + Vite
+# Bhushan Bobade Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for the personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio showcases personal projects, skills, and contact information using a modern React frontend.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open the local development URL shown in the terminal.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## GitHub Pages
+
+This project is currently pushed to the `dev` branch. To publish to GitHub Pages at `https://bhushanbobade20.github.io/bbwebpage/`, configure the repository Pages source to use the `dev` branch.
+
+## Repository Structure
+
+- `src/` - React source files
+- `public/` - static assets and images
+- `index.html` - application entry HTML
+- `package.json` - dependencies and scripts
+- `vite.config.js` - Vite configuration
