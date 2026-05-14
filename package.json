@@ -8,7 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+  "deploy": "gh-pages -d dist --dotfiles",
   "homepage": "https://bhushanbobade20.github.io/bbwebpage/"
 },
   "dependencies": {
