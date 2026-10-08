@@ -25,7 +25,7 @@ import {
 } from 'lucide-react';
 
 const baseUrl = import.meta.env.BASE_URL;
-const resumeUrl = `${baseUrl}images/BhushanBobade_Resume_April-2025_1p.pdf`;
+const resumeUrl = `${baseUrl}images/BhushanBobade_Resume_Oct-2026.pdf`;
 
 const profile = {
   name: 'Bhushan Bobade',
